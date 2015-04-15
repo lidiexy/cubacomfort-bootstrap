@@ -33,7 +33,7 @@
 
 //== Typography
 @font-family-sans-serif: Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-serif: "Adobe Gothic Std", Georgia, "Times New Roman", Times, serif;
+@font-family-serif: AdobeGothic, "Adobe Gothic Std", Georgia, "Times New Roman", Times, serif;
 
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 @font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -58,7 +58,7 @@
 @headings-font-family: @font-family-serif;
 @headings-font-weight: 500;
 @headings-line-height: 1.1;
-@headings-color: inherit;
+@headings-color: @brand-primary;
 
 //== Iconography
 
@@ -178,6 +178,8 @@
 
 //** Small `.form-control` height
 @input-height-small: (floor(@font-size-small * @line-height-small) + (@padding-small-vertical * 2) + 2);
+//** `.form-group` margin
+@form-group-margin-bottom:       15px;
 @legend-color: @gray-dark;
 @legend-border-color: rgb(229, 229, 229);
 
@@ -234,7 +236,8 @@
 @zindex-popover: 1060;
 @zindex-tooltip: 1070;
 @zindex-navbar-fixed: 1030;
-@zindex-modal: 1040;
+@zindex-modal-background:  1040;
+@zindex-modal: 1050;
 
 //== Media queries breakpoints
 
