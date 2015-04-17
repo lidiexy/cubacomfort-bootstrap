@@ -10,9 +10,9 @@
 @gray-lighter: #e0e0e0;
 @brand-primary: #364458;
 @brand-success: #14a14a;
-@brand-info: #3462a4;
+@brand-info: #2468ac;
 @brand-warning: #ffa200;
-@brand-danger: #e84539;
+@brand-danger: #ee4036;
 
 //== Scaffolding
 
@@ -228,7 +228,7 @@
 @dropdown-header-color: @gray-light;
 
 //** Deprecated `@dropdown-caret-color` as of v3.1.0
-@dropdown-caret-color: rgb(0, 0, 0);
+@dropdown-caret-color: @brand-primary;
 
 //-- Z-index master list
 @zindex-navbar: 1000;
@@ -346,7 +346,7 @@
 
 //=== Shared nav styles
 @nav-link-padding: 10px 15px;
-@nav-link-hover-bg: @gray-lighter;
+@nav-link-hover-bg: lighten(@brand-warning, 8%);
 @nav-disabled-link-color: @gray-light;
 @nav-disabled-link-hover-color: @gray-light;
 
