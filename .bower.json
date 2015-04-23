@@ -15,8 +15,8 @@
   "homepage": "http://getbootstrap.com",
   "main": [
     "less/bootstrap.less",
-    "dist/css/bootstrap.css",
-    "dist/js/bootstrap.js",
+    "dist/css/cubacomfort-bootstrap.css",
+    "dist/js/cubacomfort-bootstrap.js",
     "dist/fonts/glyphicons-halflings-regular.eot",
     "dist/fonts/glyphicons-halflings-regular.svg",
     "dist/fonts/glyphicons-halflings-regular.ttf",
